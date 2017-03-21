@@ -1,0 +1,52 @@
+
+section{
+  font-family:Lucida Console;
+}
+
+.intro{
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 45px;
+}
+
+p{
+  font-size: 18px;
+  display: block;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+label{
+  font-size: 25px;
+  display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 3em;
+}
+ol li {
+  margin-left: 70px;
+}
+
+input{
+  margin-left: 70px;
+  font-size: 16px;
+}
+
+/*BOTON*/
+#agregar{
+  border: 3px;
+  border-radius: 3px;
+  font-size:16px;
+  color:black;
+  background:#CEF6CE; /*Color de fondo del boton*/
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #000000;
+}
+
+#agregar:active{
+  background: #BCFABC;
+}

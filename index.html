@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Fruteria </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <section class="intro">
+      <h1> Lista de Frutas </h1>
+      <p> <strong> Frutas Master </strong> es una empresa familiar que se dedica a la compra, venta y distribución
+        de frutas al por mayor. En la actualidad somos una empresa líder en distribución de frutas. </p>
+      <br>
+      <img src= "assets/img/frutas.png" hspace="465">
+      <hr>
+      <label> Catálogo Frutal: </label>
+      <ol id="nuevaFruta">
+        <li> Kiwi </li>
+        <li> Fresa </li>
+        <li> Manzana </li>
+      </ol>
+
+      <input type="text" name="fruta" id="fruta" placeholder="Fruta"/>
+      <button id="agregar" value="Agregando" onclick="agrearFruta();"> Agregar </button>
+    </section>
+    <script src="assets/js/fruteria.js"></script>
+  </body>
+</html>
